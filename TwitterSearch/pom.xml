@@ -14,6 +14,19 @@
 		<flash.player.target>10.2.0</flash.player.target>
 		<flashPlayer.command>fpDebugger</flashPlayer.command>
     </properties>
+		
+	<repositories>
+		<repository>
+			<id>flex-mojos-repository</id>
+			<url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories> 	
 	
 	<build>
 		<sourceDirectory>src/main/flex</sourceDirectory>

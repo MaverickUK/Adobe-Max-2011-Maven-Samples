@@ -28,6 +28,11 @@
 		</repository>
 	</repositories> 	
 	
+	<pluginRepositories>
+		<id>flex-mojos-repository</id>
+		<url>http://repository.sonatype.org/content/groups/flexgroup</url>	
+	</pluginRepositories>
+	
 	<build>
 		<sourceDirectory>src/main/flex</sourceDirectory>
 		<testSourceDirectory>src/test/flex</testSourceDirectory>

@@ -99,7 +99,7 @@
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>com.adobe</groupId>
+			<groupId>com.adobe.utils</groupId>
 			<artifactId>as3corelib</artifactId>
 			<version>0.93</version>
 			<type>swc</type>

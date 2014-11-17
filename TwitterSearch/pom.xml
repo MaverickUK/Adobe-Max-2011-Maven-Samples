@@ -17,6 +17,10 @@
 		
 	<repositories>
 		<repository>
+			<id>jenkins-repository</id>
+			<url>http://repo.jenkins-ci.org/public/</url>
+		</repository>	
+		<repository>
 			<id>flex-mojos-repository</id>
 			<url>http://repository.sonatype.org/content/groups/flexgroup/</url>
 			<releases>

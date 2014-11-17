@@ -17,8 +17,8 @@
 		
 	<repositories>
 		<repository>
-			<id>jenkins-repository</id>
-			<url>http://repo.jenkins-ci.org/public/</url>
+			<id>mavenc-googlecode-repository</id>
+			<url>http://ooo-maven.googlecode.com/hg/repository</url>
 		</repository>	
 		<repository>
 			<id>flex-mojos-repository</id>
@@ -99,7 +99,7 @@
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>com.adobe.utils</groupId>
+			<groupId>com.adobe</groupId>
 			<artifactId>as3corelib</artifactId>
 			<version>0.93</version>
 			<type>swc</type>
